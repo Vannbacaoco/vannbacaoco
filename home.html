@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo_name.png" type="image/png">
+</head>
+<body>
+    <div>
+        <nav class="navbar-transparent" id="navbar">
+            <img class="logo" src="logo_name.png" alt="" height="150px" width="300px">
+            <button id="scrollToTopic1"> HOME</button>
+            <button id="scrollToTopic2"> SERVICES</button>
+            <button id="scrollToTopic3">SKILLS</button>
+            <button id="scrollToTopic4"> CONTACTS</button>
+        </nav>
+    </div>
+    <section class="Home" id="topic1">
+        <div class="content_home"> 
+            <div>
+                <p class="greet">HELLO, MY NAME IS</p>
+                <p class="name">VANN ANDRE BACAOCO</p>
+                <p class="intro">
+                    Hi! I’m a recent graduate passionate about crafting user-centered digital experiences. I specialize in user research, wireframing, prototyping, and visual design. <br> <br>
+        This portfolio showcases my journey as a designer, highlighting projects where I’ve combined creativity with problem-solving to create impactful solutions. Thank you for visiting—I’m excited to connect and explore new opportunities!
+                </p>
+            </div>
+            <img class="profile" src="profile.jpg" alt="" height="400px" width="400px">
+        </div>
+    </section>
+
+
+    <section class="service" id="topic2">
+        <div style="text-align: center;">
+            <h2>
+                WHAT I DO 
+            </h2>
+            <p style="font-size: 30px;">my <span style="font-family: text; font-size: 60px;">Services</span></p>
+        </div>
+        <div style="display: grid;">
+            <div class="box">
+                <h2>UI/UX DESIGN SERVICE</h2>
+                <p>I offer expert UI/UX design services to enhance your digital experience with intuitive and visually appealing solutions. Let’s work together to create a product that stands out and meets user needs.</p>
+            </div>
+            <div class="box">
+                <h2>GRAPHIC DESIGN SERVICE</h2>
+                <p>I provide professional graphic design services to elevate your brand with compelling visuals. From logos and marketing materials to social media graphics, I create designs that capture attention and communicate your message effectively</p>
+            </div>
+            <div class="box">
+                <h2>VIDEO EDITING SERVICES</h2>
+                <P>I offer expert video editing to turn your footage into polished, engaging content. Whether it's for promotional videos, social media, or personal projects, I'll enhance your visuals and storytelling to captivate your audience.</P>                
+            </div>
+    </section>
+    
+    
+    <section class="skill" id="topic3">
+        <div style="text-align: center;">
+            <h2>PROFFESIONAL SKILLS</h2>
+            <p style="font-size: 30px;">my <span style="font-family: text; font-size: 60px;">TALENT</span></p>
+        </div>
+        <div style="display:grid; grid-template-columns: repeat(3,1fr); gap: 10px; text-align: center;">
+            <div class="box2">
+                <h2>PYTHON</h2>
+                <img src="20.png" alt="" height="100px" width="100px">
+            </div>
+            <div class="box2">
+                <h2>HTML5, CSS, JavaScript</h2>
+                <img src="35.png" alt="" height="100px" width="100px">
+            </div>
+            <div class="box2">
+                <h2>ADOBE PHOTOSHOP</h2>
+                <img src="75.png" alt="" height="100px" width="100px">
+            </div>
+            <div class="box2">
+                <h2>CAPCUT</h2>
+                <img src="75.png" alt="" height="100px" width="100px">
+            </div>
+            <div class="box2">
+                <h2>ADOBE XD</h2>
+                <img src="75.png" alt="" height="100px" width="100px">
+            </div>
+        </div>
+    </section>
+
+
+        <section class="contact" id="topic4">
+            <div style="text-align: center;">
+                <h2>CONTACTS</h2>
+            </div>
+            <div class="container">
+                <a href="https://www.facebook.com/profile.php?id=100083615635495">
+                    <div class="box3">
+                        <img class="icon" src="facebook.png" alt="">
+                        <h1>FACEBOOK</h1>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/synx.1224/">
+                    <div class="box3">
+                        <img class="icon" src="instagram.png" alt="">
+                        <h1>INSTAGRAM</h1>
+                    </div>
+                </a>
+                <div class="box4">
+                    <img class="icon" src="phone-contact.png" alt="" height="55px" width="55px">
+                    <h1>FACEBOOK</h1>
+                    <p>09958401486</p>
+                </div>
+                <div class="box4">
+                    <img class="icon" src="email.png" alt="">
+                    <h1>FACEBOOK</h1>
+                    <p>vacbacaoco@antiquespide.edu.ph</p>
+                </div>
+                
+            </div>
+        </section>
+
+
+<script>
+        document.getElementById('scrollToTopic1').addEventListener('click', function() {
+        document.getElementById('topic1').scrollIntoView({ behavior: 'smooth' });
+    });
+    document.getElementById('scrollToTopic2').addEventListener('click', function() {
+        document.getElementById('topic2').scrollIntoView({ behavior: 'smooth' });
+    });
+    document.getElementById('scrollToTopic3').addEventListener('click', function() {
+        document.getElementById('topic3').scrollIntoView({ behavior: 'smooth' });
+    });
+    document.getElementById('scrollToTopic4').addEventListener('click', function() {
+        document.getElementById('topic4').scrollIntoView({ behavior: 'smooth' });
+    });
+</script>
+
+</body>
+</html>
